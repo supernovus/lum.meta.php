@@ -14,12 +14,21 @@
   {
     "lum/lum-compat": "^2.6"
   },
+  "require-dev":
+  {
+    "lum/lum-test": "^3.0",
+    "lum/lum-debug": "^1.0"
+  },
   "autoload":
   {
     "psr-4":
     {
       "Lum\\Meta\\": "lib"
     }
+  },
+  "scripts":
+  {
+    "test": "lumtest"
   },
   "extra":
   {
